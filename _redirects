@@ -8,3 +8,6 @@
 # Old WordPress paths
 /wp-content/*      /                 301
 /wp-admin/*        /                 301
+
+# Old test prep address (linked from the retired tegacay subdomain)
+/sat-act-prep      /test-prep        301!
