@@ -2,10 +2,8 @@
 /home              /                 301!
 /home/             /                 301!
 
-# Earlier site addresses that other sites still link to
-/tega-cay/         /tega-cay         301!
+# Earlier site addresses that other sites still link to (/tega-cay/ is handled by pretty URLs)
 /tutoring-sessions /                 301!
-/tutoring-sessions/ /                301!
 
 # Old WordPress paths
 /wp-content/*      /                 301
