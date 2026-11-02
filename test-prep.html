@@ -1459,6 +1459,26 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 </div>
 </div>
 </section>
+<section class="choose-center" id="centers">
+<style>
+.choose-center{background:var(--sky-pale);padding:64px 0}
+.choose-center h2{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:clamp(32px,4vw,44px);color:var(--blue-deep);line-height:1;margin-bottom:8px}
+.choose-center .cc-sub{color:var(--ink-soft);margin-bottom:24px}
+.cc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media(max-width:800px){.cc-grid{grid-template-columns:1fr}}
+.cc-card{display:flex;flex-direction:column;gap:4px;background:#fff;border:1px solid var(--hairline);border-radius:16px;padding:24px;text-decoration:none;color:var(--ink);transition:transform .15s,box-shadow .15s}
+.cc-card:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(20,82,122,.12)}
+.cc-card b{font-family:'Barlow Condensed',sans-serif;font-size:30px;color:var(--blue-dark);line-height:1}
+.cc-st{font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--red)}
+.cc-go{margin-top:10px;font-weight:700;color:var(--blue)}
+</style>
+<div class="container">
+  <h2>Choose your center</h2>
+  <p class="cc-sub">See SAT and ACT prep, pricing and registration for the Lazar center closest to you.</p>
+  <div class="cc-grid"><a class="cc-card" href="/sat-act-prep-fort-mill"><span class="cc-st">SC</span><b>Fort Mill</b><span>914 Smithfield Way, Suite 104</span><span class="cc-go">SAT &amp; ACT prep in Fort Mill →</span></a><a class="cc-card" href="/sat-act-prep-tega-cay"><span class="cc-st">SC</span><b>Tega Cay</b><span>1157 Stonecrest Blvd., Suite 105</span><span class="cc-go">SAT &amp; ACT prep in Tega Cay →</span></a><a class="cc-card" href="/sat-act-prep-charlotte"><span class="cc-st">NC</span><b>Charlotte</b><span>5126 Park Rd., Suite 2D</span><span class="cc-go">SAT &amp; ACT prep in Charlotte →</span></a></div>
+</div>
+</section>
+
 <script>
   function expandTierLocations(btn) {
     const wrap = btn.closest('.tier-register-wrap');
