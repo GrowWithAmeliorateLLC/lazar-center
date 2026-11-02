@@ -1338,30 +1338,45 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 </a>
 </div>
 </div>
-<div class="hero-visual animate-up delay-4">
-<div class="session-card-decoration"></div>
-<div class="session-tag-floating">Sent to parents · After every session</div>
-<div class="session-card">
-<div class="session-card-header">
-<span class="session-card-tag">Session Note</span>
-<span class="session-card-date">Apr 24 · 4:00 PM</span>
-</div>
-<div class="session-card-meta">
-<div><strong>Student</strong><span>Alex C., Grade 10</span></div>
-<div><strong>Subject</strong><span>Chemistry</span></div>
-</div>
-<div class="session-card-body">
-<p><strong>Today's focus:</strong> Stoichiometric mole-to-gram conversions to prepare for Friday's quiz.</p>
-<p><strong>Progress:</strong> After a detailed mini lesson, Alex worked through a set of 10 conversion problems. He began applying dimensional analysis consistently rather than guessing units, leading to a noticeable improvement in accuracy. Great work!</p>
-<p><strong>Next session:</strong> We will work on limiting reactant calculations from his Chapter 9 packet. Reminder: Please bring class notes.</p>
-</div>
-<div class="session-card-footer">
-<span class="session-card-avatar">H</span>
-            Ms. Hannah · Lazar Center Charlotte
-          </div>
+<div class="hero-visual hero-photo animate-up delay-4">
+  <img src="/assets/room-open.jpg" alt="Students and tutors working at open tables in a bright Lazar center" width="1600" height="1200" fetchpriority="high">
+  <div class="hero-photo-note"><b>Notes after every session</b>Parents get a written summary of what was covered and what's next.</div>
 </div>
 </div>
 </div>
+</section>
+<section class="inside" id="inside">
+<style>
+.hero-photo{position:relative}
+.hero-photo img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:22px;display:block;box-shadow:0 24px 48px rgba(20,82,122,.18)}
+.hero-photo-note{position:absolute;left:-24px;bottom:-22px;max-width:270px;background:#fff;border-radius:14px;padding:14px 18px;font-size:14px;line-height:1.45;color:var(--ink-soft);box-shadow:0 12px 28px rgba(20,82,122,.16);border-left:4px solid var(--red)}
+.hero-photo-note b{display:block;font-family:'Barlow Condensed',sans-serif;font-size:19px;color:var(--blue-deep);margin-bottom:2px}
+@media(max-width:900px){.hero-photo-note{position:static;margin-top:14px;max-width:none}}
+.inside{padding:84px 0 72px;background:#fff}
+.inside-head{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:end;margin-bottom:32px}
+@media(max-width:800px){.inside-head{grid-template-columns:1fr}}
+.inside h2{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:clamp(38px,5vw,58px);line-height:.95;color:var(--blue-deep)}
+.inside-head p{font-size:18px;color:var(--ink-soft)}
+.collage{display:grid;grid-template-columns:1.35fr 1fr 1fr;grid-template-rows:260px 260px;gap:14px}
+.collage figure{position:relative;margin:0;overflow:hidden;border-radius:18px}
+.collage img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s}
+.collage figure:hover img{transform:scale(1.03)}
+.collage .big{grid-row:span 2}
+.collage .wide{grid-column:span 2}
+.collage figcaption{position:absolute;left:12px;bottom:12px;background:rgba(255,255,255,.94);color:var(--blue-deep);font-weight:700;font-size:14px;padding:6px 12px;border-radius:999px}
+@media(max-width:800px){.collage{grid-template-columns:1fr 1fr;grid-template-rows:auto}.collage .big,.collage .wide{grid-row:auto;grid-column:span 2}.collage figure{height:220px}}
+</style>
+<div class="container">
+  <div class="inside-head">
+    <div><div class="eyebrow">Inside Lazar</div><h2>Bright, open rooms.<br>Small groups.</h2></div>
+    <p>Students work at shared tables in light-filled rooms, with an experienced educator right beside them. No cubicles and no rows of desks, just a calm place to get work done.</p>
+  </div>
+  <div class="collage">
+    <figure class="big"><img src="/assets/small-group.jpg" alt="A small group of high school students working at a shared table with a tutor nearby" loading="lazy"><figcaption>Small groups at one table</figcaption></figure>
+    <figure class="wide"><img src="/assets/bright-room.jpg" alt="Two students laughing together at a table next to a large window" loading="lazy" style="object-position:50% 40%"><figcaption>Lots of natural light</figcaption></figure>
+    <figure><img src="/assets/tutor-one-on-one.jpg" alt="A tutor working through a lesson with a middle school student" loading="lazy"><figcaption>Help right beside you</figcaption></figure>
+    <figure><img src="/assets/handprint-wall.jpg" alt="A tutor and student working in front of a wall covered in student handprints" loading="lazy"><figcaption>The handprint wall</figcaption></figure>
+  </div>
 </div>
 </section>
 <section class="pillars" id="pillars">
